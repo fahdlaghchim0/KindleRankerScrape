@@ -19,7 +19,7 @@ def kindleranker(_keywords):
 
         for _keyword in _keywords:
             _keyword.replace('\n','')
-            _data_file = '/Users/call911/Desktop/_C_/Work/Automation/KDPBot/Output/AmzonData/KindleRanker/{}_data.xlsx'.format(_keyword)
+            _data_file = '{}_data.xlsx'.format(_keyword)
             if path.exists(_data_file):
                 continue
 
